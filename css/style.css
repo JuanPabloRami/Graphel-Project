@@ -135,11 +135,11 @@ nav a{
 }
 
 .tercerotext{
-    width:30%;
+    width:21%;
 }
 
 .terceroimg img{
-    width: 27%;
+    width: 34%;
 }
 
 
@@ -169,7 +169,7 @@ footer{                /* compartido */
 }
 
 .izquierda{               /* compartido */
-    width:40%;
+    width:48%;
     justify-content:center;
 }
 
@@ -199,7 +199,7 @@ footer{                /* compartido */
 .derechaquehacemos{   /*compartido */
     color: aliceblue;
     background-color: #24282b;    
-    /* height: 55%; */
+    height: 55%;
     width:22%;
     padding:15px;
     margin-top: 1%;
@@ -222,7 +222,7 @@ footer{                /* compartido */
 .parrafo1contenedor{
     background-color: #e7e7e7;
     color: rgb(0, 0, 0);
-    padding:15px;
+    padding:23px;
     margin-bottom:10px;
     border: 2px #8585854b solid;
 }
@@ -236,6 +236,7 @@ footer{                /* compartido */
     display: flex;
     justify-content:space-around;
     margin-top:1%;
+    min-height: 69vh;
 
 }
 
@@ -261,15 +262,17 @@ footer{                /* compartido */
 .cuestionariocontacto textarea{
     display:flex;
     flex-direction: column;
-    padding: 10px;
     background: #ffffff;
     color: rgb(46, 48, 49);
     border:1px black solid;
-    width:60%;
+    width:99.4%;
     margin-bottom: 10px;
 }
 
+
+
 .botonenviar{
+    width:100%;
     padding: 10px;
     background: #ff5100;
     color: aliceblue;
@@ -280,7 +283,6 @@ footer{                /* compartido */
 .derechaquehacemoscontacto{   /*compartido */
     color: aliceblue;
     background-color: #24282b;
-    width: 100%;
     padding:15px;
 
 }
