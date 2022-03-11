@@ -5,6 +5,8 @@ body{
     margin-top:0;
     font-family:arial,sans-serif;
 }
+
+/* nav */
 nav{
     width: 100%;
     height: 100px;
@@ -56,6 +58,8 @@ a{
 nav a{
     color: aliceblue;
 }
+
+/* index */
 
 .primero{
     position:relative;
@@ -285,4 +289,64 @@ footer{                /* compartido */
     background-color: #24282b;
     padding:15px;
 
+}
+
+
+
+@media (max-width:1100px){
+
+    .terceroimg img{
+        width:53%;
+    }
+
+
+
+
+    .izquierda{
+        width:64%;
+    }
+
+    .derechaquehacemos{
+        width:29%;
+    }
+
+    .cuestionariocontacto{
+        width:53%;
+    }
+
+    .derechacontenedorcontacto{
+        width:32%;
+    }
+}
+
+@media (max-width:890px){
+
+
+    .navtextoizquierda{
+        margin-left: 4%;
+    }
+
+    .navtextoderecha{
+        margin-right:4%;
+    }
+    
+    .terceroimg img{
+        width:57%;
+    }
+
+    .tercerotext{
+        width:26%;
+    }
+
+    .cuestionariocontacto{
+        width:60%;
+    }
+}
+
+@media (max-width:620px){
+    
+}
+
+@media (max-width:590px){
+    
 }
