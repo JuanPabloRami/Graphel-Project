@@ -463,21 +463,5 @@ footer{                /* compartido */
         font-size: 20px;
     }
 
-    .tercero{
-        flex-direction: column;
-        height:590px;
-    }
-
-    .tercerotext{
-        display:flex;
-        flex-direction: row;
-    }
-
-    .terceromediaquery{
-        display:flex;
-        flex-direction: column;
-        
-    }
-
-
+    
 }
