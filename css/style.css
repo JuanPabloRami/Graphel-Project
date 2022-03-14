@@ -441,7 +441,6 @@ footer{                /* compartido */
 @media (max-width:520px){
     nav {
         height:185px;
-
     }
 
     .navtextoderecha{
@@ -463,5 +462,23 @@ footer{                /* compartido */
         font-size: 20px;
     }
 
-    
+    .tercero{
+        flex-direction: column;
+        height:40%;
+        align-items: center;
+        
+    }
+
+    .tercerotext{
+        display: flex;
+        height:30%;
+        width:83%;
+        flex-flow:unset;
+    }
+
+    .terceromediaquery{
+        width:400px;
+    }
+
+
 }
